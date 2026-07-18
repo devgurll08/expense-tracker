@@ -1,0 +1,100 @@
+#expenseChart{
+    max-width: 400px;
+    max-height: 400px;
+    margin: 30px auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0F172A;
+  color: #E2E8F0;
+  padding: 40px 10%;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #F8FAFC;
+  margin-bottom: 25px;
+  border-left: 4px solid #38BDF8;
+  padding-left: 15px;
+}
+
+h2 {
+  color: #38BDF8;
+  margin: 20px 0;
+}
+
+#expenseForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+#expenseForm input,
+#expenseForm select {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #1E293B;
+  color: #E2E8F0;
+  font-size: 15px;
+}
+
+#expenseForm button {
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  background: #38BDF8;
+  color: #0F172A;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#expenseForm button:hover {
+  background: #0EA5E9;
+}
+
+#expenseList {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+#expenseList li {
+  background: #1E293B;
+  padding: 14px 18px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #334155;
+}
+
+#expenseList li button {
+  background: #F87171;
+  color: #0F172A;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+#expenseList li button:hover {
+  background: #EF4444;
+}
+
+#expenseChart {
+  background: #1E293B;
+  border-radius: 12px;
+  padding: 20px;
+}
